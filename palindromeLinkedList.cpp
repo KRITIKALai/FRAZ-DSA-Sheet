@@ -17,7 +17,8 @@
     };
 
 *****************************************************************/
-
+//method#1 -> using vectors ;sc=O(n); tc=O(n)
+*****************************************************************/
 bool isPalindrome(LinkedListNode<int> *head) {
     // Write your code here.
     if(head==NULL){
@@ -37,3 +38,7 @@ bool isPalindrome(LinkedListNode<int> *head) {
     }
     return true;
 }
+
+*****************************************************************/
+//method#2 -> using fast and slow pointers; sc=O(1); tc=O(n)
+*****************************************************************/
